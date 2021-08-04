@@ -8,6 +8,7 @@ To run my app:
 4. cd to project folder;
 5. "npm install";
 6. To run my app "npm run server:all"
+7. And enter in your browser http://localhost:4200/
 
 # WebStore
 
