@@ -1,0 +1,91 @@
+<nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+        <input class="form-control mr-sm-2"
+               type="text"
+               #search
+               autocomplete="off"
+               placeholder="Search name of product"
+               (input)="findOut(search.value)" />
+    </form>
+    <button class="btn btn-lg btn-outline-primary"
+            (click)="openLg(content)">
+        Add new product
+    </button>
+</nav>
+
+<ng-template #content
+             let-c="close">
+    <div class="modal-header">
+        <h4 class="modal-title">Please fill all fields</h4>
+    </div>
+
+    <div class="modal-body">
+        <form [formGroup]="productForm">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"
+                          id="inputGroup-sizing-default">
+                        Title
+                    </span>
+                </div>
+                <input type="text"
+                       formControlName="title"
+                       class="form-control"
+                       aria-label="Title"
+                       aria-describedby="inputGroup-sizing-default" />
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text"
+                           for="inputGroupSelect01">
+                        Category
+                    </label>
+                </div>
+                <select class="custom-select"
+                        formControlName="category"
+                        id="inputGroupSelect01">
+                    <option selected>Choose...</option>
+                    <option value="Bread">Bread</option>
+                    <option value="Spices">Spices</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Fruits">Fruits</option>
+                </select>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"
+                          id="basic-addon3">
+                        https://example.com/
+                    </span>
+                </div>
+                <input type="text"
+                       formControlName="imageUrl"
+                       class="form-control"
+                       id="basic-url"
+                       aria-describedby="basic-addon3" />
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input type="number"
+                       formControlName="price"
+                       class="form-control"
+                       aria-label="Amount (to the nearest dollar)" />
+            </div>
+        </form>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button"
+                class="btn btn-danger"
+                (click)="c(); cancel()">
+            Close
+        </button>
+        <button type="submit"
+                class="btn btn-primary"
+                (click)="onSubmit(); c()">
+            Submit
+        </button>
+    </div>
+</ng-template>

@@ -1,0 +1,31 @@
+<mat-accordion *ngFor="let order of dataSource">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <p class="title">
+                    Firstname: {{order.firstName}}
+                    <br />
+                    Lastname: {{order.lastName}}
+                </p>
+            </mat-panel-title>
+
+            <mat-panel-description>
+                <p class="panel-description">Order: {{order.id}}</p>
+            </mat-panel-description>
+            <button class="btn-danger btn-delete"
+                    (click)="$event.stopImmediatePropagation(); removeOrder(order)">
+                Remove
+            </button>
+        </mat-expansion-panel-header>
+        <p *ngFor="let product of order.orders">
+            <strong>Title:</strong>
+            {{product.title}}
+            <br />
+            <strong>Count:</strong>
+            {{product.count}}
+            <br />
+            <strong>Price:</strong>
+            {{product.price}}$
+        </p>
+    </mat-expansion-panel>
+</mat-accordion>

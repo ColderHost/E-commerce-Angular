@@ -1,0 +1,65 @@
+<div class="popUpMessage">
+    <mat-icon>done_all</mat-icon>
+    <span>Added to Card</span>
+</div>
+
+<div class="controPanel">
+    <button class="ctrlBtn"
+            (click)="filterProducts('All')">
+        All Products
+    </button>
+    <button class="ctrlBtn"
+            (click)="filterProducts('Bread')">
+        Breads
+    </button>
+    <button class="ctrlBtn"
+            (click)="filterProducts('Spices')">
+        Spices
+    </button>
+    <button class="ctrlBtn"
+            (click)="filterProducts('Vegetables')">
+        Vegetables
+    </button>
+    <button class="ctrlBtn"
+            (click)="filterProducts('Fruits')">
+        Fruits
+    </button>
+</div>
+
+<div class="cardHolder">
+    <mat-card class="cards"
+              *ngFor="let product of filtered">
+        <mat-card-header>
+            <mat-card-title>{{product.title}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image
+             class="cardImg"
+             src="{{product.imageUrl}}"
+             alt="{{product.title}}" />
+        <mat-card-content class="price">${{product.price}}</mat-card-content>
+
+        <mat-card-actions>
+            <div class="countTable">
+                <button class="actionBtn count"
+                        (click)="IncreaseButton(product.id)">
+                    +
+                </button>
+                <input class="countInput"
+                       type="number"
+                       value="{{product.count}}"
+                       placeholder="Enter count: "
+                       (input)="countInput($event, product.id)" />
+
+                <button class="actionBtn count"
+                        (click)="DecreaseButton(product.id)">
+                    -
+                </button>
+            </div>
+
+            <button class="actionBtn"
+                    (click)="AddToCard(product.id)">
+                Add To Card
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

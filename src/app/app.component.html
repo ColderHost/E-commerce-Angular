@@ -1,0 +1,45 @@
+<header class="header">
+  <!--* Order && Goods Nav-->
+  <div>
+    <a [routerLink]="['/home']"
+       class="link matIconFirst"
+       title="Homepage">
+      <mat-icon class="matIcon"
+                aria-hidden="false"
+                aria-label="goods">
+        spa
+      </mat-icon>
+    </a>
+
+    <a [routerLink]="['/orders']"
+       title="Orders"
+       class="link matIconFirst">
+      <mat-icon matBadge="{{count}}"
+                matBadgeColor="accent"
+                [matBadgeHidden]="false"
+                class="matIcon"
+                aria-hidden="false"
+                aria-label="orderList">
+        shopping_basket
+      </mat-icon>
+    </a>
+  </div>
+  <!--* Admin Panel-->
+  <button mat-button
+          [matMenuTriggerFor]="menu">
+    <p style="font-size:18px;">My account &#x25BC;</p>
+  </button>
+
+  <mat-menu #menu="matMenu">
+    <button [routerLink]="['/manage-order']"
+            mat-menu-item>
+      Manage Orders
+    </button>
+    <button [routerLink]="['/manage-products']"
+            mat-menu-item>
+      Manage Products
+    </button>
+  </mat-menu>
+</header>
+
+<router-outlet></router-outlet>

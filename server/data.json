@@ -1,0 +1,487 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Cinnamon Sticks",
+      "imageUrl": "https://m.media-amazon.com/images/I/81sr2AD3FjL._SL1500_.jpg",
+      "price": 0.7,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "title": "Spinach",
+      "imageUrl": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/270609_2200-732x549.jpg",
+      "price": 2.5,
+      "category": "Vegetables",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "title": "Freshly Baked Bread",
+      "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B0%2C0%5D&w=1753&h=877&url=https%3A%2F%2Fassets.marthastewart.com%2Fd27%2Fhomemade_white_bread_how-to%2Fhomemade_white_bread_how-to_horiz.jpg",
+      "price": 3,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "title": "Baguette",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/baguette-bread-1581535577.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "price": 3.99,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "title": "Breadstick",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/breadstick-bread-type-1581535771.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "price": 2.49,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 6,
+      "title": "Brioche",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/brioche-bread-1581536064.jpg?crop=0.672xw:1.00xh;0.122xw,0&resize=980:*",
+      "price": 5.99,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 7,
+      "title": "Pita Bread",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pita-bread-1581604260.jpg?crop=0.889xw:1.00xh;0,0&resize=980:*",
+      "price": 2.89,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 8,
+      "title": "Arugula",
+      "imageUrl": "https://mk0nutritionadvxtj6i.kinstacdn.com/wp-content/uploads/2018/01/green-arugula-leaves.jpg",
+      "price": 3.49,
+      "category": "Vegetables",
+      "count": 1
+    },
+    {
+      "id": 9,
+      "title": "Asparagus",
+      "imageUrl": "https://www.simplyrecipes.com/thmb/qrDe5MNks16YPL6ZQfaZCF7bz_A=/1423x1067/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2015__04__roasted-asparagus-horiz-a-1600-04c1d1ad1d77447dbc0769b0ae55b626.jpg",
+      "price": 3.39,
+      "category": "Vegetables",
+      "count": 1
+    },
+    {
+      "id": 10,
+      "title": "Bell Peppers",
+      "imageUrl": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/bell-peppers-1296x728-feature.jpg?w=1155&h=1528",
+      "price": 3.99,
+      "category": "Vegetables",
+      "count": 1
+    },
+    {
+      "id": 11,
+      "title": "Beet Greens",
+      "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2017/09/Sauteed-Beet-Greens-223-500x375.jpg",
+      "price": 3.49,
+      "category": "Vegetables",
+      "count": 1
+    },
+    {
+      "id": 12,
+      "title": "Butternut Squash",
+      "imageUrl": "https://www.thespruceeats.com/thmb/5SMO9I8vIYZ6CxK7cxZGwU5LMu4=/3350x3350/smart/filters:no_upscale()/butternut-squash-165550222-582776ee3df78c6f6a38f162.jpg",
+      "price": 3.19,
+      "category": "Vegetables",
+      "count": 1
+    },
+    {
+      "id": 13,
+      "title": "Avocado",
+      "imageUrl": "https://chefsmandala.com/wp-content/uploads/2018/03/Avocado.jpg",
+      "price": 0.89,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 14,
+      "title": "Banana",
+      "imageUrl": "https://east-fruit.com/wp-content/uploads/2020/11/banan.jpg",
+      "price": 1.39,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 15,
+      "title": "Blackberries",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/the-health-benefits-of-blackberries-main-image-700-350-6fc091c.jpg?quality=90&resize=385%2C350",
+      "price": 8.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 16,
+      "title": "Blueberries",
+      "imageUrl": "https://post.psychcentral.com/wp-content/uploads/2020/08/blueberries-1200x628-facebook-1200x628.jpg",
+      "price": 10.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 17,
+      "title": "Cherry",
+      "imageUrl": "https://east-fruit.com/wp-content/uploads/2020/08/86dc73b552cd0cbf164ef76e94a36cba.jpg",
+      "price": 3.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 18,
+      "title": "Cranberry",
+      "imageUrl": "https://images-prod.healthline.com/hlcmsresource/images/AN_images/cranberries-101-1296x728-feature.jpg",
+      "price": 2.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 19,
+      "title": "Date Palm",
+      "imageUrl": "https://www.grandturkishbazaar.com/wp-content/uploads/2017/12/date-fruit2.jpg",
+      "price": 2.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 20,
+      "title": "Durian",
+      "imageUrl": "https://shop-cdn1.vigbo.tech/shops/56537/products/9998735/images/3-f1cc3275fcb4771b1ca79e71b060b9c1.jpg",
+      "price": 7.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 21,
+      "title": "Goji Berries",
+      "imageUrl": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/goji_berries_and-wooden_spoon/1800x1200_goji_berries_and-wooden_spoon.jpg",
+      "price": 6.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 22,
+      "title": "Cardamom",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Cardamom-Powder-1-17-4.jpg",
+      "price": 4.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 23,
+      "title": "Clove",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/A-Pile-of-Cloves-2-17-4.jpg",
+      "price": 4.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 24,
+      "title": "Celery Seed",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/celery-seed-nov212019-min-2.jpg",
+      "price": 2.59,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 25,
+      "title": "Coriander Seed",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/coriander-seed-nov212019-min-2.jpg",
+      "price": 1.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 26,
+      "title": "Cumin",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Cumin-Seeds-and-Ground-Cumin-5-17-4.jpg",
+      "price": 4.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 27,
+      "title": "Nutmeg",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Freshly-Ground-Nutmeg-6-17-4.jpg",
+      "price": 5.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 28,
+      "title": "Mace",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Mace-spice-powder-7-17-4.jpg",
+      "price": 5.39,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 29,
+      "title": "Ginger",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Ginger-Root-and-Ginger-Powder-10-17-4.jpg",
+      "price": 2.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 30,
+      "title": "Turmeric",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Tumeric-root-and-tumeric-powder-11-17-4.jpg",
+      "price": 4.19,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 31,
+      "title": "Fenugreek",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Fenugreek-Seeds-in-a-Spoon-12-17-4.jpg",
+      "price": 7.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 32,
+      "title": "Saffron",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Saffron-in-a-wooden-bowl-13-17-4.jpg",
+      "price": 1.29,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 33,
+      "title": "Allspice",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Whole-Allspice-with-Ground-Powder-14-17-4.jpg",
+      "price": 3.99,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 34,
+      "title": "Passion Fruit",
+      "imageUrl": "https://mk0nutritionadvxtj6i.kinstacdn.com/wp-content/uploads/2017/12/whole-passion-fruit-and-half-passion-fruit-showing-orange-flesh.jpg",
+      "price": 1.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 35,
+      "title": "Pear",
+      "imageUrl": "https://sc04.alicdn.com/kf/UTB8t4tUJODEXKJk43Oqq6Az3XXav.jpg",
+      "price": 3.99,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 36,
+      "title": "Anise",
+      "imageUrl": "https://www.homestratosphere.com/wp-content/uploads/2019/04/Anise-Stars-on-a-Jute-Mat-15-17-4.jpg",
+      "price": 2.29,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "id": 37,
+      "title": "Persimmon",
+      "imageUrl": "https://mk0nutritionadvxtj6i.kinstacdn.com/wp-content/uploads/2017/12/whole-persimmon-and-half-fruit-showing-orange-flesh-inside.jpg",
+      "price": 5.1,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 38,
+      "title": "Challah",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/challah-bread-1581536484.jpg?crop=0.9709639953542392xw:1xh;center,top&resize=980:*",
+      "price": 5.29,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 39,
+      "title": "Ciabatta",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ciabatta-bread-1581536610.jpg?crop=0.892602495543672xw:1xh;center,top&resize=980:*",
+      "price": 2.99,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 40,
+      "title": "Cornbread",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cornbread-1581537027.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "price": 4.99,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 41,
+      "title": "Soda Bread",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/soda-bread-1581604751.jpg?crop=1xw:0.998114985862394xh;center,top&resize=980:*",
+      "price": 1.29,
+      "category": "Bread",
+      "count": 1
+    },
+    {
+      "id": 42,
+      "title": "Sauerkraut",
+      "imageUrl": "https://mk0nutritionadvxtj6i.kinstacdn.com/wp-content/uploads/2018/01/german-fermented-vegetable-saeurkraut-in-a-white-bowl.jpg",
+      "price": 3.55,
+      "category": "Vegetables",
+      "count": 1
+    },
+    {
+      "id": 43,
+      "title": "Java Plum",
+      "imageUrl": "https://www.seeds-gallery.shop/6505-large_default/xjava-plum-malabar-plum-seeds-syzygium-cumini.jpg.pagespeed.ic.Dry60U-OkW.jpg",
+      "price": 1.08,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 44,
+      "title": "Mangosteen",
+      "imageUrl": "https://www.verywellfit.com/thmb/uIo3KQqIJB-cW8Y64TFH36b6D8I=/1885x1414/smart/filters:no_upscale()/GettyImages-824746434-5ac79403ba61770037db6fc9.jpg",
+      "price": 7.42,
+      "category": "Fruits",
+      "count": 1
+    },
+    {
+      "id": 45,
+      "title": "Focaccia",
+      "imageUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2017/03/Rosemary-Focaccia-Bread-Recipe-1-1.jpg",
+      "price": 2.33,
+      "category": "Bread",
+      "count": 1
+    }
+  ],
+  "selected": [],
+  "orders": [
+    {
+      "firstName": "Colder",
+      "lastName": "Host",
+      "email": "colder.host@gmail.com",
+      "address": "Ukraine, Lviv",
+      "comment": "",
+      "orders": [
+        {
+          "id": 1,
+          "title": "Cinnamon Sticks",
+          "price": 0.5,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "title": "Spinach",
+          "price": 2.5,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "title": "Freshly Baked Bread",
+          "price": 3,
+          "count": 4
+        }
+      ],
+      "id": 1
+    },
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.sm@gmail.com",
+      "address": "USA, New York City",
+      "comment": "",
+      "orders": [
+        {
+          "id": 14,
+          "title": "Banana",
+          "price": 1.39,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "title": "Avocado",
+          "price": 0.89,
+          "count": 1
+        },
+        {
+          "id": 15,
+          "title": "Blackberries",
+          "price": 8.99,
+          "count": 1
+        },
+        {
+          "id": 33,
+          "title": "Allspice",
+          "price": 3.99,
+          "count": 1
+        },
+        {
+          "id": 31,
+          "title": "Fenugreek",
+          "price": 7.99,
+          "count": 1
+        },
+        {
+          "id": 38,
+          "title": "Challah",
+          "price": 5.29,
+          "count": 1
+        },
+        {
+          "id": 37,
+          "title": "Persimmon",
+          "price": 5.1,
+          "count": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "firstName": "Lara",
+      "lastName": "Johnson",
+      "email": "lara@gmail.com",
+      "address": "Las Vegas",
+      "comment": "",
+      "orders": [
+        {
+          "id": 1,
+          "title": "Cinnamon Sticks",
+          "price": 0.5,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "title": "Butternut Squash",
+          "price": 3.19,
+          "count": 3
+        },
+        {
+          "id": 19,
+          "title": "Date Palm",
+          "price": 2.99,
+          "count": 2
+        },
+        {
+          "id": 35,
+          "title": "Pear",
+          "price": 3.99,
+          "count": 2
+        },
+        {
+          "id": 40,
+          "title": "Cornbread",
+          "price": 4.99,
+          "count": 2
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

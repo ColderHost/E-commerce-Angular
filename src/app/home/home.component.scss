@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap");
+
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  .cards {
+    border: 1px solid gray;
+    flex-basis: 24%;
+    margin: 10px;
+  }
+
+  .cardImg {
+    border-radius: 40%;
+    margin: 0 auto;
+    width: 350px;
+    height: 270px;
+    object-fit: cover;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+  }
+
+  .price {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .actionBtn {
+    background-color: rgb(207, 193, 193);
+    user-select: none;
+    display: block;
+    border: none;
+    height: 30px;
+    margin: 0 8px;
+    width: 100%;
+    font-family: "Zilla Slab", serif;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+
+  .actionBtn:hover {
+    color: #fff;
+    background-color: grey;
+  }
+
+  .countTable {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 4px 8px;
+
+    .count {
+      flex-basis: 21%;
+      margin: 0 5px;
+    }
+
+    .countInput {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      width: auto;
+      width: 40%;
+      border: 1px solid black;
+      outline: none;
+      height: 30px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+
+    input[type="number"] {
+      padding-left: 5px;
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}
+
+.controPanel {
+  display: flex;
+  flex-flow: column wrap;
+  width: 130px;
+  float: left;
+  margin: 30px 80px 0 100px;
+
+  .ctrlBtn {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    transition: background-color 0.4s, color 0.6s;
+    -webkit-transition: background-color 0.4s, color 0.6s;
+    -moz-transition: background-color 0.4s, color 0.6s;
+    -ms-transition: background-color 0.4s, color 0.6s;
+    -o-transition: background-color 0.4s, color 0.6s;
+  }
+
+  .ctrlBtn:hover {
+    color: #fff;
+    background-color: rgb(121, 113, 113);
+  }
+
+  .ctrlBtn:last-child {
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+  }
+
+  .ctrlBtn:first-child {
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+  }
+}
+
+.popUpMessage {
+  position: fixed;
+  z-index: 9999;
+  top: 9%;
+  left: 85%;
+  border: 2px solid grey;
+  padding: 10px;
+  height: auto;
+  background-color: rgba(25, 247, 25, 0.699);
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+
+  span {
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+}
+
+//*Desktop
+@media only screen and (max-width: 1440px) {
+  .cardHolder {
+    .cards {
+      flex-basis: 45%;
+    }
+
+    .cardImg {
+      width: 450px;
+      height: 250px;
+    }
+  }
+}
+
+//*Tablet
+@media only screen and (max-width: 942px) {
+  .cardHolder {
+    .cards {
+      flex-basis: 65%;
+    }
+
+    .cardImg {
+      width: 450px;
+      height: 250px;
+    }
+  }
+
+  .controPanel {
+    width: 180px;
+    margin: 30px 100px 0 100px;
+  }
+}
+
+//* Mobile
+@media only screen and (max-width: 794px) {
+  .controPanel {
+    margin: 30px auto;
+    float: none;
+  }
+  .cardHolder {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

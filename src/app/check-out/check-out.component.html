@@ -1,0 +1,65 @@
+<div class="layout">
+    <form class="formContainer"
+          [formGroup]="profileForm"
+          (ngSubmit)="onSubmit()">
+        <h2>Shipping:</h2>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input formControlName="firstName"
+                   required
+                   matInput />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Lastname</mat-label>
+
+            <input formControlName="lastName"
+                   required
+                   matInput />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput
+                   placeholder="pat@example.com"
+                   formControlName="email"
+                   required />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Adress</mat-label>
+            <input required
+                   formControlName="address"
+                   type="address"
+                   matInput />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Comment</mat-label>
+            <textarea formControlName="comment"
+                      matInput>
+            </textarea>
+        </mat-form-field>
+
+        <button mat-raised-button
+                type="submit"
+                [disabled]="!profileForm.valid"
+                color="primary">
+            Make Order
+        </button>
+    </form>
+
+    <div class="formSubCont">
+        <mat-card class="card">
+            <h2 style="color:red; font-family: Georgia, 'Times New Roman', Times, serif;">
+                {{textIfEmpty}}
+            </h2>
+            <span class="spanPreview"
+                  *ngFor="let products of dataSource">
+                <span class="count">Count: {{products.count}} x &ensp;</span>
+                <span class="title">{{products.title}}</span>
+            </span>
+            <span class="summary">Summary: ${{summary}}</span>
+        </mat-card>
+    </div>
+</div>

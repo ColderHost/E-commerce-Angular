@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #c1b3a9;
+  box-shadow: 5px 5px 20px 2px #888888;
+  align-items: center;
+  justify-content: space-between;
+
+  .matIcon {
+    user-select: none;
+    font-size: 35px;
+    width: auto;
+    color: rgb(90, 90, 90);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+  }
+
+  .matIconFirst:first-child {
+    margin-left: 100px;
+  }
+
+  .matIconFirst:last-child {
+    margin-left: 25px;
+  }
+
+  .matIcon:hover {
+    color: #000;
+  }
+
+  .btnDropdown {
+    margin-right: 40px;
+  }
+
+  .btnDropdown:hover {
+    border: 1px solid grey;
+  }
+}

@@ -1,0 +1,26 @@
+<app-search-bar [dataSource]="dataSource"
+                (filteredObj)="displayNewData($event)">
+</app-search-bar>
+
+<div class="alertBox">
+    <h2 class="alertText">Not Found!</h2>
+</div>
+
+<article class="container">
+    <mat-card *ngFor="let product of dataSource"
+              class="card cards">
+        <mat-card-header>
+            <mat-card-title>{{product.title}}</mat-card-title>
+            <mat-card-subtitle>{{product.category}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image
+             class="image"
+             src="{{product.imageUrl}}"
+             alt="productImage" />
+        <mat-card-actions>
+            <app-button-actions [product]="product"
+                                [dataSource]="dataSource">
+            </app-button-actions>
+        </mat-card-actions>
+    </mat-card>
+</article>
