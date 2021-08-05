@@ -106,6 +106,7 @@ export class CheckOutComponent implements OnInit {
     if (this.profileForm.value.orders.length > 0) {
       this.postToOrder(this.profileForm.value);
       this.removeAllSelected();
+      this.profileForm.reset();
     } else {
       return (this.textIfEmpty = 'Please choose a product!');
     }
