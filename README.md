@@ -8,6 +8,9 @@ To run my app:
 4. cd to project folder;
 5. "npm install";
 6. To run my app "npm run server:all"
+7. And enter in your browser http://localhost:4200/
+8. *If you want to delete some products you must firstly remove comment in 
+return statement, click on delete btn and open console 
 
 # WebStore
 
